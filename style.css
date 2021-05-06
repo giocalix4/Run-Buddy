@@ -258,8 +258,11 @@ section {
   font-size: 38px;
 }
 
-.trainer {
+.trainers {
   text-align: center;
+}
+
+.trainer {
   width: 900px;
   margin: 0 auto 30px;
   background: #024e76;
@@ -323,4 +326,21 @@ section {
   text-align: left;
   margin: 30px 0 0 60px;
   color: white;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info address,
+.contact-info p {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
 }
