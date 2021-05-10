@@ -110,6 +110,14 @@ section {
   height: 600px;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.hero-secondary {
+  background-position: bottom;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .hero-form {
@@ -132,14 +140,6 @@ section {
   position: absolute;
   top: 50px;
   right: 140px;
-}
-
-.hero {
-  background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
 }
 
 .hero-form p {
@@ -198,6 +198,16 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+}
+
+.page-title {
+  color: #fce138;
+  display: inline-block;
+  border-bottom: 4px solid #fce138;
+  padding: 0 80px 15px;
+  font-weight: normal;
+  font-size: 42px;
+  font-style: italic;
 }
 
 .intro {
